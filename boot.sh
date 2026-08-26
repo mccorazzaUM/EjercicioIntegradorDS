@@ -1,4 +1,4 @@
 python -m venv .venv
 source .venv/Scripts/activate
 pip install -r requirements.txt
-python app/main.py
+python -m fastapi dev app/main.py
